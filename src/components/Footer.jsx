@@ -1,5 +1,5 @@
 import React from 'react';
-import footerLogo from '../Assets/Images/Frame 2087325052.png';
+import footerLogo from '../Assets/Images/footerimg.png';
 import { FaDribbble, FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 

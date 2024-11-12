@@ -33,7 +33,7 @@ const Hero = () => {
           <div className="cursor-pointer font-semibold text-lg sm:text-xl flex justify-center items-center bg-[#6833FB] rounded-lg w-full sm:w-48 lg:w-56 text-white h-12 transition duration-300 transform hover:scale-105">
             Get Started Now
           </div>
-          <div className="cursor-pointer flex gap-2 p-3 justify-start items-center rounded-lg w-full sm:w-48 lg:w-56 h-12 bg-white/80 shadow-lg transition duration-300 transform hover:scale-105">
+          <div className="cursor-pointer flex gap-2 p-3 justify-center md:justify-start items-center rounded-lg w-full sm:w-48 lg:w-56 h-12 bg-white/80 shadow-lg transition duration-300 transform hover:scale-105">
             <FaPlayCircle className="text-[#636363]" size={20} />
             <span className="font-medium text-[#636363]">How It Works</span>
           </div>
