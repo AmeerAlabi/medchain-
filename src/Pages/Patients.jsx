@@ -1,9 +1,14 @@
 import React from 'react'
+import HeroPatient from '../components/HeroPatient'
+import HospitalFeatures from '../components/HospitalFeatures'
+import Cta from '../components/Cta'
 
 const Patients = () => {
   return (
     <div>
-      <h2 className=" text-3xl font-[500] ">Hello patients</h2>
+      <HeroPatient />
+      <HospitalFeatures />
+      <Cta />
     </div>
   )
 }
