@@ -4,6 +4,8 @@ import Stats from '../components/Stats'
 import AboutUs from '../components/AboutUs'
 import Why from '../components/Why'
 import Impact from '../components/Impact'
+import Testimonies from '../components/Testimonies'
+import Cta from '../components/Cta'
 
 const About = () => {
   return (
@@ -13,6 +15,8 @@ const About = () => {
         <AboutUs />
         <Why />
         <Impact />
+        <Testimonies />
+        <Cta />
     </div>
   )
 }
