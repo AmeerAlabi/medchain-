@@ -61,7 +61,7 @@ const ContactUs = () => {
           </div>
           <button
             type="submit"
-            className="w-full bg-white text-[#6833FB] font-medium py-3 rounded-md hover:bg-gray-100 transition"
+            className=" cursor-not-allowed w-full bg-white text-[#6833FB] font-medium py-3 rounded-md hover:bg-gray-100 transition"
           >
             Submit
           </button>

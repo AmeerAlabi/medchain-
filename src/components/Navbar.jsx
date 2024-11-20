@@ -8,7 +8,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="w-full h-[70px] shadow-md flex justify-between items-center px-4 md:px-[70px] py-4">
+    <div className="w-full h-[70px] shadow-md flex justify-between items-center px-4 md:px-[70px] py-4 bg-white fixed top-0 z-50">
       {/* Logo */}
       <div>
         <NavLink to="/">
@@ -79,7 +79,7 @@ const Navbar = () => {
 
       {/* Sign In/Up and Language Selector for Desktop */}
       <div className="hidden md:flex items-center gap-4">
-        <div className="w-[121px] h-[48px] bg-[#6833FB] rounded-[12px] flex justify-center items-center text-white text-[14px] font-[400] cursor-pointer">
+        <div className=" cursor-not-allowed w-[121px] h-[48px] bg-[#6833FB] rounded-[12px] flex justify-center items-center text-white text-[14px] font-[400] cursor-pointer">
           Sign In/Up
         </div>
 
@@ -107,7 +107,7 @@ const Navbar = () => {
       {menuOpen && (
         <div className="fixed inset-0 bg-white z-10 flex gap-[20px] flex-col items-center pt-20">
           {/* Close Button */}
-          <button
+ <button
             onClick={() => setMenuOpen(false)}
             className="absolute top-6 right-6 text-[#161C2D] text-2xl"
           >
@@ -173,7 +173,7 @@ const Navbar = () => {
 
           {/* Sign In/Up button */}
           <div
-            className="w-[121px] h-[48px] bg-[#6833FB] rounded-[12px] flex justify-center items-center text-white text-[14px] font-[400] cursor-pointer mt-4"
+            className=" cursor-not-allowed w-[121px] h-[48px] bg-[#6833FB] rounded-[12px] flex justify-center items-center text-white text-[14px] font-[400] cursor-pointer mt-4"
             onClick={() => setMenuOpen(false)}
           >
             Sign In/Up

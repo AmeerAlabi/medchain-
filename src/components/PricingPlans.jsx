@@ -105,7 +105,7 @@ const PricingPlans = () => {
         {plans.map((plan, index) => (
           <div
             key={index}
-            className="flex flex-col bg-white border border-[#6833FB] rounded-xl shadow-lg p-8 transition-transform hover:scale-105 hover:shadow-2xl"
+            className="flex flex-col cursor-not-allowed bg-white border border-[#6833FB] rounded-xl shadow-lg p-8 transition-transform hover:scale-105 hover:shadow-2xl"
           >
             <div className="flex-grow text-center">
               <h3 className="text-xl font-semibold text-gray-800 mb-4">

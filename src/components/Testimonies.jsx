@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import pic from '../Assets/Images/bg.png';
+import pic from '../Assets/Images/herobg.png';
 import { BiChevronLeft, BiChevronRight } from 'react-icons/bi';
 
 const Testimonies = () => {

@@ -80,7 +80,7 @@ const HospitalFeatures = () => {
             <p className="mt-3 text-sm sm:text-base lg:text-lg font-normal text-[#6F7177]">
               Schedule and make voice or video calls with your doctors directly through our platform. Stay connected and get timely consultations without leaving your home.
             </p>
-            <button className="bg-[#6833fb] w-36 h-12 rounded-md text-white cursor-pointer flex justify-center items-center mt-4">
+            <button className=" cursor-not-allowed bg-[#6833fb] w-36 h-12 rounded-md text-white flex justify-center items-center mt-4">
               Get started now
             </button>
           </div>

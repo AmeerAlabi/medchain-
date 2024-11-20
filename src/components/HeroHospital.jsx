@@ -1,16 +1,11 @@
 import React from 'react';
 import { FaPlayCircle } from 'react-icons/fa';
-import bg from '../Assets/Images/bg.png';
+import mobileBg from '../Assets/Images/mobile.png'; // Replace with your mobile image path
+import desktopBg from '../Assets/Images/herobg.png'; // Replace with your desktop image path
 
 const HeroHospital = () => {
   return (
-    <div
-      className="relative flex w-full h-screen bg-cover bg-center"
-      style={{
-        backgroundImage: `url(${bg})`,
-        backgroundRepeat: 'no-repeat',
-      }}
-    >
+    <div className="hero-hospital-background relative flex w-full h-screen bg-cover bg-center py-[30px]">
       {/* Overlay for faded background behind text */}
       <div className="absolute inset-0 bg-gradient-to-r from-[#ffffffcc] to-transparent"></div>
 
@@ -34,6 +29,24 @@ const HeroHospital = () => {
           </button>
         </div>
       </div>
+
+      {/* Scoped CSS for Responsive Backgrounds */}
+      <style>
+        {`
+          .hero-hospital-background {
+            background-image: url(${mobileBg});
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+          }
+
+          @media (min-width: 640px) {
+            .hero-hospital-background {
+              background-image: url(${desktopBg});
+            }
+          }
+        `}
+      </style>
     </div>
   );
 };
