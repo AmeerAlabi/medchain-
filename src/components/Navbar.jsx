@@ -71,7 +71,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Hamburger Menu */}
-      <div className="md:hidden flex items-center">
+      <div className="md:hidden bg-white flex items-center">
         <button onClick={() => setMenuOpen(!menuOpen)} className="text-[#161C2D] text-2xl">
           {menuOpen ? <FaTimes /> : <FaBars />}
         </button>
